@@ -1,0 +1,21 @@
+{
+  "name": "frontrunners",
+  "homepage": "index.html",
+  "authors": [
+    "Mike Baker <bakermg@me.com>"
+  ],
+  "description": "motorcycle repair",
+  "main": "index.html",
+  "keywords": [
+    "motorycycle",
+    "repair"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

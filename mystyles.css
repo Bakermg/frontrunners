@@ -1,0 +1,17 @@
+body {
+	background: url(images/bike-wallpaper-8.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo {
+	opacity: 0.6;
+}
+
+.logo-text {
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+}
