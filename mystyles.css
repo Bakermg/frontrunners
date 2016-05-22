@@ -1,17 +1,79 @@
-body {
-	background: url(images/bike-wallpaper-8.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.main {
+    background: url(images/bike-wallpaper-8.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .logo {
-	opacity: 0.6;
+    opacity: 0.6;
 }
 
 .logo-text {
-	color: #000;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 24px;
+    color: #000;
+    font-size: 24px;
+}
+
+.main-info {
+    background-color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.connects {
+    color: #DE8385;
+}
+
+.menu-title {
+    padding: 40px;
+    font-size: 36px;
+    color: #6AABB9;
+}
+
+.menu-sub-title {
+    color: #6AABB9;
+    font-size: 24px;
+}
+
+.icon {
+    padding-top: 30px;
+    padding-right: 20px;
+    color: #DE8385;
+}
+
+.menu-desc {
+    font-size: 18px;
+}
+
+.main-section {
+    background: rgb(255, 255, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(255, 255, 255, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(255, 255, 255, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(255, 255, 255, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+    /* IE6-9 */
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    background-color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
+}
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.copy {
+	padding: 70px 40px 0px 0px;
+	text-align: right;
 }
